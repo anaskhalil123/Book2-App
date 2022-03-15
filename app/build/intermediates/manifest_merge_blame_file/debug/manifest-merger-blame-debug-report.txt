@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignment1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:22-64
+15
+16    <application
+16-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:5:5-25:19
+17        android:allowBackup="true"
+17-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /home/anas/.gradle/caches/transforms-3/cb96c4ca748e404272842399af61a491/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Assignment1" >
+25-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:11:9-49
+26        <activity
+26-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:12:9-15:20
+27            android:name="com.example.assignment1.AddBookActivity"
+27-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:13:13-44
+28            android:exported="true" >
+28-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:14:13-36
+29        </activity>
+30        <activity
+30-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:16:9-24:20
+31            android:name="com.example.assignment1.MainActivity"
+31-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:17:13-41
+32            android:exported="true" >
+32-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:19:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:20:17-69
+34-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:22:17-77
+36-->/home/anas/projects/AndroidStudioProjects/Cloud Computing Projects/Assignment1/app/src/main/AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:12:9-18:19
+41            android:name="com.google.firebase.components.ComponentDiscoveryService"
+41-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:13:13-84
+42            android:directBootAware="true"
+42-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+43            android:exported="false" >
+43-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:14:13-37
+44            <meta-data
+44-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:15:13-17:85
+45                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+45-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:16:17-126
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /home/anas/.gradle/caches/transforms-3/77b90582d9c066119152e31e294afaeb/transformed/jetified-firebase-firestore-ktx-24.0.1/AndroidManifest.xml:17:17-82
+47            <meta-data
+47-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/anas/.gradle/caches/transforms-3/02d6befe3c48ee422a67f1cb9c4a4996/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+48                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+48-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/anas/.gradle/caches/transforms-3/02d6befe3c48ee422a67f1cb9c4a4996/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/anas/.gradle/caches/transforms-3/02d6befe3c48ee422a67f1cb9c4a4996/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+51                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+51-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-firestore:24.0.1] /home/anas/.gradle/caches/transforms-3/2bf6a0e4c42c47302e68f176f884692b/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+53        </service>
+54
+55        <provider
+55-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+56            android:name="com.google.firebase.provider.FirebaseInitProvider"
+56-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+57            android:authorities="com.example.assignment1.firebaseinitprovider"
+57-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:20.0.0] /home/anas/.gradle/caches/transforms-3/e721ef85b01e90f3e74d515bf392f294/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-3/9b90b2b6f8b90b437a967b451fc7da71/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-3/9b90b2b6f8b90b437a967b451fc7da71/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-3/9b90b2b6f8b90b437a967b451fc7da71/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.1.0] /home/anas/.gradle/caches/transforms-3/9b90b2b6f8b90b437a967b451fc7da71/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-3/568ebaff61f70bb864b8db5c2899d914/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-3/568ebaff61f70bb864b8db5c2899d914/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] /home/anas/.gradle/caches/transforms-3/568ebaff61f70bb864b8db5c2899d914/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+73            android:authorities="com.example.assignment1.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/2bbcc5b07222540c2b4bb4c8e396fd05/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/b09ee5964d5d14803bd61ba052a7c97c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/b09ee5964d5d14803bd61ba052a7c97c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/b09ee5964d5d14803bd61ba052a7c97c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>
